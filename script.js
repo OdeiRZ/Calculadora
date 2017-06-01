@@ -21,3 +21,17 @@ function meteNum(pantalla,numero) {
 		else
 			pantalla.value += numero;
 }
+function meteOperador(pantalla,operador) {
+	if (!sw || operPendiente == "=") {	//cadena = parseFloat(eval(pantalla.value)).toFixed(2);
+		sw = true;
+		switch(operPendiente) {	
+			case '/':	pantalla.value!=0 ? acu/=parseFloat(pantalla.value) : alert("No puedes dividir entre 0");	break;														
+			case '*':	acu*=parseFloat(pantalla.value);	break;
+			case '-':	acu-=parseFloat(pantalla.value);	break;
+			case '+':	acu+=parseFloat(pantalla.value);	break;
+			default :	acu =parseFloat(pantalla.value);
+		}	//redondear si se divide
+		pantalla.value = acu;
+		operPendiente = operador;
+	}
+}
