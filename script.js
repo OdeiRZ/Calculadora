@@ -35,3 +35,18 @@ function meteOperador(pantalla,operador) {
 		operPendiente = operador;
 	}
 }
+function usaMemoria(pantalla) {
+	if(memoria.value != "0")
+		meteNum(pantalla,memoria.value);
+}
+function meteMemoria(pantalla) {
+	if(debug)	memoria.type="text";
+		memoria.value=pantalla.value;
+}
+function borraMemoria() {
+	acu=0;
+	sw=true;
+	memoria.value=0;
+	pantalla.value=0;
+	operPendiente="";
+}
