@@ -11,3 +11,13 @@ function lupa(pantalla,pagina) {
 	ventana.location.href=pagina+"?"+pantalla.value;
 	ventana.focus;
 }
+function meteNum(pantalla,numero) {			
+	if(sw) {
+		pantalla.value = numero;
+		sw = false;
+	} else
+		if(pantalla.value == "0")
+			pantalla.value = numero;
+		else
+			pantalla.value += numero;
+}
