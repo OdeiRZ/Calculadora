@@ -2,8 +2,55 @@
 <html lang="es">
 	<head>
 		<meta charset="utf-8"/>
-		<title></title>
+		<title>Simulación de Calculadora</title>
 	</head>
 	<body>
+		<div id="contenido">
+			<form>
+				<table action="#" id="tabla">
+					<tr>
+						<td colspan="4">
+							<table>	<!--Por diseño creamos otra tabla dentro de la celda-->
+								<tr>
+									<td><input id="pantalla" value="0" disabled></td>
+								</tr>
+							</table>	
+						</td>
+					</tr>
+					<tr>
+						<td><input type="image" src="img/lupa.png" onClick="lupa(this.form.pantalla)"></td>
+						<td><input type="button" value="ME" onClick="meteMemoria(this.form.pantalla)"></td>
+						<td><input type="button" value="RE" onClick="usaMemoria(this.form.pantalla)"></td>
+						<td><input type="button" value="CE" onClick="borraMemoria()"></td>
+					</tr>
+					<tr>
+						<td><input type="button" value="7" onClick="meteNum(this.form.pantalla,this.value)"></td>
+						<td><input type="button" value="8" onClick="meteNum(this.form.pantalla,this.value)"></td>
+						<td><input type="button" value="9" onClick="meteNum(this.form.pantalla,this.value)"></td>
+						<td><input type="button" value="/" onClick="meteOperador(this.form.pantalla,this.value)"></td>
+					</tr>
+					<tr>
+						<td><input type="button" value="4" onClick="meteNum(this.form.pantalla,this.value)"></td>
+						<td><input type="button" value="5" onClick="meteNum(this.form.pantalla,this.value)"></td>
+						<td><input type="button" value="6" onClick="meteNum(this.form.pantalla,this.value)"></td>
+						<td><input type="button" value="*" onClick="meteOperador(this.form.pantalla,this.value)"></td>
+					</tr>
+					<tr>
+						<td><input type="button" value="1" onClick="meteNum(this.form.pantalla,this.value)"></td>
+						<td><input type="button" value="2" onClick="meteNum(this.form.pantalla,this.value)"></td>
+						<td><input type="button" value="3" onClick="meteNum(this.form.pantalla,this.value)"></td>
+						<td><input type="button" value="-" onClick="meteOperador(this.form.pantalla,this.value)"></td>
+					</tr>
+					<tr>
+						<td><input type="button" value="0" onClick="meteNum(this.form.pantalla,this.value)"></td>
+						<td><input type="button" value="." onClick="meteNum(this.form.pantalla,this.value)" disabled></td>
+						<!--Se muestra para simular el aspecto visual de una calculadora, pero no se ha terminado de implementar debido a la naturaleza del ejercicio-->
+						<td><input type="button" value="=" onClick="meteOperador(this.form.pantalla,this.value)"></td>
+						<td><input type="button" value="+" onClick="meteOperador(this.form.pantalla,this.value)"></td>
+					</tr>
+				</table>
+				<input type="hidden" value='0' id="memoria">
+			</form> 
+		</div> 
 	</body> 
 </html>
