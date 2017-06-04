@@ -1,15 +1,15 @@
-Calculadora 0.9
+Calculadora 0.91
 ================================
 
-AplicaciÛn web que simula el funcionamiento de una calculadora desarrollada en JavaScript y HTML.
-Permite realizar operaciones matem·ticas b·sicas y ampliar el resultado obtenido a travÈs de una
-utilidad en forma de lupa, todo ello a travÈs de una interfaz intuitiva y atractiva.
+Aplicaci√≥n web que simula el funcionamiento de una calculadora desarrollada en JavaScript y HTML.
+Permite realizar operaciones matem√°ticas b√°sicas y ampliar el resultado obtenido a trav√©s de una
+utilidad en forma de lupa, todo ello a trav√©s de una interfaz intuitiva y atractiva.
 
 Desde el programa podremos realizar las diferentes operaciones propias de una calculadora, desde la
-que controlaremos los resultados obtenidos. La aplicaciÛn permite llevar a cabo sumas, restas, multiplicaciones
-y divisiones, permitiendo asÌ realizar todas las tareas b·sicas de una calculadora de manera sencilla.
+que controlaremos los resultados obtenidos. La aplicaci√≥n permite llevar a cabo sumas, restas, multiplicaciones
+y divisiones, permitiendo as√≠ realizar todas las tareas b√°sicas de una calculadora de manera sencilla.
 
 ## Licencia
-Esta aplicaciÛn se ofrece bajo licencia [AGPL versiÛn 3].
+Esta aplicaci√≥n se ofrece bajo licencia [GPL versi√≥n 3].
 
-[AGPL versiÛn 3]: http://www.gnu.org/licenses/agpl.html
+[GPL versi√≥n 3]: https://www.gnu.org/licenses/gpl-3.0.en.html
