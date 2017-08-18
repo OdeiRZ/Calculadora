@@ -9,12 +9,16 @@ Desde el programa podremos realizar las diferentes operaciones propias de una ca
 que controlaremos los resultados obtenidos. La aplicación permite llevar a cabo sumas, restas, multiplicaciones
 y divisiones, permitiendo así realizar todas las tareas básicas de una calculadora de manera sencilla.
 
+Para cualquier referencia relacionada con el sitio, podemos ver la aplicación desplegada 
+visitando el siguiente [enlace].
+
 ## Requisitos
 - Navegador Web [Chrome], [Firefox], [Opera], [Microsoft Edge], etc..
 
 ## Licencia
 Esta aplicación se ofrece bajo licencia [GPL versión 3].
 
+[enlace]: https://odeirz.github.io/Calculadora_HTML/public/
 [Chrome]: https://www.google.es/chrome/browser/desktop/index.html
 [Firefox]: https://www.mozilla.org/es-ES/firefox/new/
 [Opera]: http://www.opera.com/es
